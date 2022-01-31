@@ -1,14 +1,20 @@
+@import "./header";
+
 @import "./utils/vars";
 
 @import "./components/component";
 @import "./components/component-button";
+@import "./components/portfolio";
 
 @import "./base/reset";
-@import "./header";
+@import "./base/footer";
+@import "./base/hero";
 
 @import "./layout/advantage";
 @import "./layout/main-info";
 @import "./layout/teams-list";
 @import "./layout/social";
 @import "./layout/teams-list";
-@import "./layout/footer";
+@import "./layout/modal";
+@import "./layout/subskribe";
+@import "./layout/clients";

@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
             integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/main.min.css">
     <title>Portfolio</title>
 </head>
@@ -30,14 +29,14 @@
         <ul class="header-list-nav-2 list">
             <li>
                 <a class="header-contacts" href="">
-                    <svg class="header-contacts-icon" width="16" height="12">
+                    <svg class="header-contacts__icon" width="16" height="12">
                         <use href="./image/icons.svg#icon-mail">
                         </use>
                     </svg>info@devstudio.com</a>
             </li>
             <li>
                 <a class="header-contacts" href="">
-                    <svg class="header-contacts-icon" width="16" height="12">
+                    <svg class="header-contacts__icon" width="16" height="12">
                         <use href="./image/icons.svg#icon-phone">
                         </use>
                     </svg>+38 096 111 11 11</a>
@@ -216,7 +215,7 @@
             <div class="footer-container">
                 <a class="logo-2" href="/"> <span class="web">Web</span>Studio </a>
                 <address>
-                    <p class="footer-address">г. Киев, пр-т Леси Украинки,26</p>
+                    <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul>
                         <li><a class="footer-contacts" href=""> info@example.com</a></li>
                         <li><a class="footer-contacts" href=""> +38 099 111 11 11</a></li>
@@ -226,54 +225,57 @@
             <div class="join">
                 <p class="join-text">ПРИСОЕДИНЯЙТЕСЬ</p>
                 <ul class="social-list list">
-                    <li class="social-list-item">
-                        <a class="social-list-footer-link" href="">
-                            <svg class="social-list-footer-icon" width="20" height="20">
+                    <li class="social-list-footer__item">
+                        <a class="social-list-footer__link" href="">
+                            <svg class="social-list-footer__icon" width="20" height="20">
                                 <use href="./image/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-list-item">
-                        <a class="social-list-footer-link" href="">
-                            <svg class="social-list-footer-icon" width="20" height="20">
+                    <li class="social-list-footer__item">
+                        <a class="social-list-footer__link" href="">
+                            <svg class="social-list-footer__icon" width="20" height="20">
                                 <use href="./image/icons.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-list-item">
-                        <a class="social-list-footer-link" href="">
-                            <svg class="social-list-footer-icon" width="20" height="20">
+                    <li class="social-list-footer__item">
+                        <a class="social-list-footer__link" href="">
+                            <svg class="social-list-footer__icon" width="20" height="20">
                                 <use href="./image/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social-list-item">
-                        <a class="social-list-footer-link" href="">
-                            <svg class="social-list-footer-icon" width="20" height="20">
+                    <li class="social-list-footer__item">
+                        <a class="social-list-footer__link" href="">
+                            <svg class="social-list-footer__icon" width="20" height="20">
                                 <use href="./image/icons.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
                 </ul>
-        </div>
-        <form class="form-subscribe">
-            <p class="subscribe-text">Подпишитесь на рассылку</p>
-            <div class="subscribe">
-        
-                <!-- <label for="user-email"></label> -->
-        
-                <input type="email" name="user-email" id="user-email" class="form-subscribe-input" required
-                    placeholder="E-mail">
+    
             </div>
-        
-            <button type="submit" class="subscribe-btn">Подписаться
-                <span class="subscribe-btn-icon">
-                    <svg width="24" height="24">
-                        <use href="./image/icons.svg#icon-icon-send"></use>
-                    </svg>
-                </span>
-            </button>
-        </form>
+            <form class="form-subscribe">
+                <p class="subscribe-text">Подпишитесь на рассылку</p>
+                <div class="subscribe">
+    
+                    <!-- <label for="user-email"></label> -->
+    
+                    <input type="email" name="user-email" id="user-email" class="form-subscribe-input" required
+                        placeholder="E-mail">
+                </div>
+    
+                <button type="submit" class="subscribe-btn">Подписаться
+                    <span class="subscribe-btn-icon">
+                        <svg width="24" height="24">
+                            <use href="./image/icons.svg#icon-icon-send"></use>
+                        </svg>
+                    </span>
+                </button>
+            </form>
+    
+        </div>
     
     </footer>
     <!-- КОНЕЦ ПОДВАЛ ПОРТФОЛИО-->
