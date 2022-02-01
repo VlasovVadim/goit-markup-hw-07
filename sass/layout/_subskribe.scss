@@ -2,7 +2,7 @@
   display: inline-flex;
   min-width: 358px;
   margin-right: 12px;
-  &-text {
+  &__text {
     color: var(--primary-white-color);
     font-weight: 700;
     font-size: 14px;
@@ -10,7 +10,7 @@
     text-transform: uppercase;
     margin-bottom: 20px;
   }
-  &-btn {
+  &__btn {
     fill: var(--primary-white-color);
     color: var(--primary-white-color);
     background-color: var(--accent-color);
@@ -47,7 +47,7 @@
     }
   }
 }
-.form-subscribe {
+.form__subscribe {
   min-width: 570px;
   margin-left: 93px;
   &-input {

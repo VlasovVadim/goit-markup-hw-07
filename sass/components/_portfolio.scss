@@ -4,22 +4,9 @@
   display: flex;
   flex-direction: reverse;
   justify-content: center;
-  margin-right: 8px;
 }
 
-.filter {
-  align-items: center;
-  margin: 0 auto 50px 0;
-  display: flex;
-  flex-direction: reverse;
-  justify-content: center;
-}
-
-.filter .button-portfolio {
-  margin-right: 8px;
-}
-
-.button-portfolio {
+.button__portfolio {
   cursor: pointer;
   color: var(--secondary-text-color);
   font-family: inherit;
@@ -28,7 +15,7 @@
   border: 1px solid transparent;
 }
 
-.button-portfolio.secondary {
+.button__portfolio {
   color: var(--header-color);
   background-color: var(--secondary-white-color);
   font-family: inherit;
@@ -38,6 +25,7 @@
   display: flex;
   align-items: center;
   padding: 6px 22px;
+  margin-right: 8px;
   letter-spacing: 0.03em;
   border-radius: 4px;
   min-width: 75px;
@@ -49,55 +37,14 @@
   }
 }
 
-// .button-portfolio.secondary:hover,
-// .button-portfolio.secondary:focus {
-//   color: var(--primary-white-color);
-//   background-color: var(--accent-color);
-// }
-
-.filter-button {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--header-color);
-  cursor: pointer;
-}
-.filter-button-1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--header-color);
-  background: var(--accent-color);
-  cursor: pointer;
-}
-.list-name {
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--header-color);
-}
-.list-type {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-}
-.project-list {
+.project {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
-.project-item {
+.project__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
@@ -108,7 +55,13 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
-.block-list {
+
+.overlay-element {
+  position: relative;
+  overflow: hidden;
+}
+
+.list-portfolio {
   border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 25px;
@@ -116,9 +69,17 @@
   text-align: left;
 }
 
-.overlay-element {
-  position: relative;
-  overflow: hidden;
+.list-portfolio__name {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+}
+.list-portfolio__type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .list-work-text {
   position: absolute;
